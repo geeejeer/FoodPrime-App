@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FoodDeliveryAppFinal</string>
+    <string name="i_agree_with_terms_conditions"><![CDATA[I Agree with Terms & Conditions]]></string>
+    <string name="contact_number">Contact Number</string>
+    <string name="e_mail">E-mail</string>
+    <string name="your_orders_to_deliver">Your Orders To Deliver</string>
+</resources>

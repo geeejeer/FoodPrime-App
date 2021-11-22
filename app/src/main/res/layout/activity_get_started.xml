@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_intro"
+    android:padding="20dp"
+    tools:context=".GetStarted">
+
+    <TextView
+        android:id="@+id/textFood"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:padding="20dp"
+        android:text="Welcome "
+        android:textAlignment="center"
+        android:textSize="40dp"
+        android:textStyle="bold"/>
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_below="@+id/textFood"
+        android:layout_centerHorizontal="true"
+        android:background="#fff"
+        android:src="@drawable/foodprime" />
+
+    <TextView
+        android:id="@+id/textEnjoy"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="ENJOY \nEATING"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_below="@+id/imageLogo"/>
+    <TextView
+        android:id="@+id/textPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All the delicious food on your phone."
+        android:layout_below="@+id/textEnjoy"
+        android:textSize="20dp"
+        android:padding="20dp"
+        android:textStyle="bold"/>
+
+    <Button
+        android:id="@+id/btnGet"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textPhone"
+        android:layout_centerHorizontal="true"
+        android:padding="20dp"
+        android:text="GET STARTED"
+        android:onClick="gotoMenu"
+        android:textColor="#f2a02b"
+        android:background="@drawable/background_btn_intro1"/>
+
+</RelativeLayout>
